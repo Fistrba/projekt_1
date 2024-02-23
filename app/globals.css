@@ -2,7 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
 .bg-gradient{
-  background-color: #8BC6EC;
-  background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+  background-color: #ff407d;
+  background-image: linear-gradient(135deg, #ff407d 0%, #ffcad4 100%);
+}
+
+.home_bg {
+  background-image: url("../public/home_bg.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }

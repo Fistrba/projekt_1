@@ -4,10 +4,10 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <div id="navbar" className='w-full py-7 bg-[#ffffffcb] flex justify-center items-center'  >
+    <div id="navbar" className='w-full py-7 bg-[#ffffffc1] flex justify-center items-center'  >
         <div className='w-[95%] h-full flex justify-between'>
             <div id='logo' >
-                <h3 className='text-xl uppercase font-600 text-[#222222d4]' >Projek 1</h3>
+                <h3 className=' anta-regular text-2xl uppercase font-600 text-[#222222d4]' >Projek 1</h3>
             </div>
             <div id='logo' >
                     <Link href="/" className='font-300 text-[#222222d4]' >Sign In</Link>
