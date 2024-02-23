@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar/Navbar";
 import Image from "next/image";
 import img from "../public/pexels-steve-johnson-12939554.jpg"
+import { UserButton } from "@clerk/nextjs";
 
 export default function Home() {
   return (
@@ -24,8 +25,6 @@ export default function Home() {
               
             </div>
           </div>
-
-
 
         </div>
 
