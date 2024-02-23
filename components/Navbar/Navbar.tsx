@@ -25,7 +25,7 @@ const Navbar = () => {
                 </div>
             ): (
                 <div id='me' >
-                    <UserButton afterSignOutUrl='/' />
+                    <UserButton afterSignOutUrl="/"  />
                 </div>
             )}
 
