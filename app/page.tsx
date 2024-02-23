@@ -1,3 +1,4 @@
+import Navbar from "@/components/Navbar/Navbar";
 import Image from "next/image";
 
 export default function Home() {
@@ -5,9 +6,11 @@ export default function Home() {
   
     <>
     
-      <main>
+      <main id="main" className="bg-gradient w-full min-h-screen" >
 
-        Home
+        <Navbar />
+      
+
 
       </main>
     
