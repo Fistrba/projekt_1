@@ -1,7 +1,7 @@
 import UserModel from "../models/User";
 import { connectToDB } from "../mongodb/mongoose";
 
-export const createOrUpdateUser = async (id: string | number, first_name: string, last_name: string, image_url: string, email_addresses: any, username: string) => {
+export const createOrUpdateUser = async (id: string, first_name: string, last_name: string, image_url: string, email_addresses: any, username: string) => {
 
     try {
         await connectToDB();
@@ -23,7 +23,7 @@ export const createOrUpdateUser = async (id: string | number, first_name: string
             }, 
             {upsert: true, new: true}
         );
-
+        //await user.save();
         return
        
     }catch(error) {
